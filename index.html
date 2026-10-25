@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Orhun's Cocktail Bar</title>
+<style>
+  @font-face { font-family: 'Bonum'; src: url('fonts/TeXGyreBonum-Regular.otf') format('opentype'); font-display: swap; }
+  @font-face { font-family: 'Arvo'; src: url('fonts/Arvo-Regular.ttf') format('truetype'); font-display: swap; }
+  @font-face { font-family: 'Playfair'; src: url('fonts/PlayfairDisplay-Regular.ttf') format('truetype'); font-display: swap; }
+  :root { --bg: #f7f2e8; --card: #ffffff; --border: #e0d6c4; --text: #2b221b; --soft: #665a4c; --muted: #968a79; --accent: #9c7a12; --on-accent: #ffffff; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #14110f; --card: #221d19; --border: #3a322b; --text: #f3e9d2; --soft: #b8ab95; --muted: #8a7f6e; --accent: #c9a227; --on-accent: #14110f; }
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body { margin: 0; background: var(--bg); color: var(--text); font-family: 'Arvo', Rockwell, serif; }
+  header { text-align: center; padding: 36px 16px 4px; }
+  .kicker { color: var(--accent); letter-spacing: 4px; text-transform: uppercase; font-size: 15px; }
+  h1 { margin: 4px 0 0; font-family: 'Bonum', 'Bookman Old Style', serif; font-weight: normal; font-size: 34px; }
+  .welcome { color: var(--soft); margin-top: 6px; font-size: 15px; }
+  .bar { position: sticky; top: 0; background: var(--bg); border-bottom: 1px solid var(--border); z-index: 1; }
+  .langs { display: flex; gap: 8px; justify-content: center; padding-top: 12px; }
+  .langs button { background: none; border: 1px solid var(--accent); color: var(--accent); border-radius: 14px; padding: 3px 12px; font: inherit; font-size: 14px; cursor: pointer; }
+  .langs button.on { background: var(--accent); color: var(--on-accent); }
+  .chips { display: flex; gap: 8px; overflow-x: auto; padding: 12px 16px; scrollbar-width: none; }
+  .chips::-webkit-scrollbar { display: none; }
+  .chips a { flex: none; text-decoration: none; color: var(--text); background: var(--card); border: 1px solid var(--border); border-radius: 16px; padding: 6px 12px; font-size: 14px; }
+  main { max-width: 600px; margin: 0 auto; padding: 0 16px 48px; }
+  h2 { color: var(--accent); font-family: 'Playfair', 'TAN Pearl', serif; font-weight: normal; font-size: 21px; letter-spacing: 2px; text-transform: uppercase; margin: 28px 0 4px; scroll-margin-top: 110px; }
+  .row { display: flex; align-items: center; gap: 14px; padding: 12px 0; border-bottom: 1px solid var(--border); }
+  .row .body { flex: 1; }
+  .row h3 { margin: 0; font-family: 'Bonum', 'Bookman Old Style', serif; font-weight: normal; font-size: 25px; }
+  .row p { margin: 4px 0 0; color: var(--soft); line-height: 1.45; font-size: 16px; }
+  .row img { width: 72px; height: 90px; object-fit: cover; border-radius: 8px; flex: none; }
+  footer { text-align: center; color: var(--muted); font-size: 12px; padding-bottom: 32px; }
+</style>
+</head>
+<body>
+<header>
+  <div class="kicker">Orhun's</div>
+  <h1>Cocktail Bar</h1>
+  <div class="welcome" id="welcome"></div>
+</header>
+<div class="bar">
+  <div class="langs"><button data-lang="tr">TR</button><button data-lang="en">EN</button></div>
+  <nav class="chips" id="chips"></nav>
+</div>
+<main id="menu"></main>
+<footer id="footer"></footer>
+<script>
+  var text = {
+    tr: { welcome: 'Hoş geldiniz, afiyet olsun!', empty: 'Menü yakında burada.', updated: 'Güncellendi: ' },
+    en: { welcome: 'Welcome and enjoy!', empty: 'The menu will be here soon.', updated: 'Updated: ' }
+  };
+  var saved = null;
+  try { saved = localStorage.getItem('lang'); } catch (e) {}
+  var lang = saved || ((navigator.language || '').slice(0, 2) === 'tr' ? 'tr' : 'en');
+  var data = null;
+
+  function el(tag, cls, content) {
+    var e = document.createElement(tag);
+    if (cls) e.className = cls;
+    if (content) e.textContent = content;
+    return e;
+  }
+
+  function render() {
+    document.documentElement.lang = lang;
+    document.getElementById('welcome').textContent = text[lang].welcome;
+    document.querySelectorAll('.langs button').forEach(function (b) { b.classList.toggle('on', b.dataset.lang === lang); });
+    var menu = document.getElementById('menu');
+    var chips = document.getElementById('chips');
+    menu.innerHTML = '';
+    chips.innerHTML = '';
+    if (!data || !data.sections.length) { menu.appendChild(el('p', 'welcome', text[lang].empty)); return; }
+    data.sections.forEach(function (s) {
+      var chip = el('a', '', s.label[lang]);
+      chip.href = '#' + s.key;
+      chips.appendChild(chip);
+      var h = el('h2', '', s.label[lang]);
+      h.id = s.key;
+      menu.appendChild(h);
+      s.items.forEach(function (c) {
+        var row = el('div', 'row');
+        var body = el('div', 'body');
+        body.appendChild(el('h3', '', c.name[lang]));
+        if (c.notes[lang]) body.appendChild(el('p', '', c.notes[lang]));
+        row.appendChild(body);
+        if (c.image) { var img = el('img'); img.src = c.image; img.alt = c.name[lang]; img.loading = 'lazy'; row.appendChild(img); }
+        menu.appendChild(row);
+      });
+    });
+    document.getElementById('footer').textContent = text[lang].updated + new Date(data.updatedAt).toLocaleDateString(lang);
+  }
+
+  document.querySelectorAll('.langs button').forEach(function (b) {
+    b.onclick = function () { lang = b.dataset.lang; try { localStorage.setItem('lang', lang); } catch (e) {} render(); };
+  });
+  fetch('menu.json?t=' + Date.now()).then(function (r) { return r.json(); }).then(function (d) { data = d; render(); }).catch(render);
+</script>
+</body>
+</html>

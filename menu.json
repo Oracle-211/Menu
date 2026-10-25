@@ -1,0 +1,506 @@
+{
+ "updatedAt": "2026-10-25T13:33:48.174Z",
+ "sections": [
+  {
+   "key": "spirit-forward",
+   "label": {
+    "tr": "Sert ve Aromatik",
+    "en": "Spirit Forward"
+   },
+   "items": [
+    {
+     "name": {
+      "tr": "Negroni",
+      "en": "Negroni"
+     },
+     "notes": {
+      "tr": "Acı · Aromatik · Dengeli",
+      "en": "Bitters · Aromatic · Balanced"
+     },
+     "image": "img/mvmzem9pasb2dr-1792883824561.jpg"
+    },
+    {
+     "name": {
+      "tr": "Lucien Gaudin",
+      "en": "Lucien Gaudin"
+     },
+     "notes": {
+      "tr": "Acı · Aromatik · Yumuşak",
+      "en": "Bitters · Aromatic · Soft"
+     },
+     "image": "img/mvmzemc88skari-1792883824629.jpg"
+    },
+    {
+     "name": {
+      "tr": "Last Word",
+      "en": "Last Word"
+     },
+     "notes": {
+      "tr": "Bitkisel · Keskin · Hafif çiçeksi",
+      "en": "Herbal · Sharp · Delicate Floral"
+     },
+     "image": "img/mvmzemdqocw01s-1792883824666.jpg"
+    },
+    {
+     "name": {
+      "tr": "Last Aviator",
+      "en": "Last Aviator"
+     },
+     "notes": {
+      "tr": "Bitkisel · Şık · Hafif çiçeksi",
+      "en": "Herbal · Elegant · Delicate Floral"
+     },
+     "image": "img/mvmzemf3ex4l7w-1792883824701.jpg"
+    },
+    {
+     "name": {
+      "tr": "Bijou",
+      "en": "Bijou"
+     },
+     "notes": {
+      "tr": "Bitkisel · Sert · Kompleks",
+      "en": "Herbal · Strong · Complex"
+     },
+     "image": "img/mvmzemgfiux90p-1792883824737.jpg"
+    },
+    {
+     "name": {
+      "tr": "Remember the Maine",
+      "en": "Remember the Maine"
+     },
+     "notes": {
+      "tr": "İsli · Acı · Kompleks",
+      "en": "Smoky · Bitter · Complex"
+     },
+     "image": "img/mvmzemi08olygj-1792883824774.jpg"
+    },
+    {
+     "name": {
+      "tr": "Tuxedo",
+      "en": "Tuxedo"
+     },
+     "notes": {
+      "tr": "Sek · Keskin · Rafine",
+      "en": "Dry · Sharp · Refined"
+     },
+     "image": "img/mvmzemjiqcrd6p-1792883824809.jpg"
+    },
+    {
+     "name": {
+      "tr": "Martini Dry",
+      "en": "Martini Dry"
+     },
+     "notes": {
+      "tr": "Sek · Tuzlu · Botanik",
+      "en": "Dry · Salty · Botanical"
+     },
+     "image": "img/mvmzemkral0by5-1792883824842.jpg"
+    },
+    {
+     "name": {
+      "tr": "Vesper Martini",
+      "en": "Vesper Martini"
+     },
+     "notes": {
+      "tr": "Sert · Botanik · Şık",
+      "en": "Strong · Botanical · Elegant"
+     },
+     "image": "img/mvmzemm3vnyyuk-1792883824878.jpg"
+    },
+    {
+     "name": {
+      "tr": "Corpse Reviver #2",
+      "en": "Corpse Reviver #2"
+     },
+     "notes": {
+      "tr": "Narenciyeli · Ferah · Sek",
+      "en": "Citrusy · Fresh · Dry"
+     },
+     "image": "img/mvmzemni8gx5vm-1792883824914.jpg"
+    },
+    {
+     "name": {
+      "tr": "Old Fashioned",
+      "en": "Old Fashioned"
+     },
+     "notes": {
+      "tr": "Zengin · Acı · Tatlı",
+      "en": "Rich · Bitter · Sweet"
+     },
+     "image": "img/mvmzemoodadsc8-1792883824958.jpg"
+    }
+   ]
+  },
+  {
+   "key": "citrus-sour",
+   "label": {
+    "tr": "Ekşi ve Narenciyeli",
+    "en": "Citrus Sour"
+   },
+   "items": [
+    {
+     "name": {
+      "tr": "Aviation",
+      "en": "Aviation"
+     },
+     "notes": {
+      "tr": "Çiçeksi · Narenciyeli · Zarif",
+      "en": "Floral · Citrusy · Delicate"
+     },
+     "image": "img/mvmzempywbo9kj-1792883825005.jpg"
+    },
+    {
+     "name": {
+      "tr": "Picador (Margarita)",
+      "en": "Picador (Margarita)"
+     },
+     "notes": {
+      "tr": "Narenciyeli · Ferah · Keskin",
+      "en": "Citrusy · Fresh · Sharp"
+     },
+     "image": "img/mvmzemr18drzbo-1792883825064.jpg"
+    },
+    {
+     "name": {
+      "tr": "Daiquiri",
+      "en": "Daiquiri"
+     },
+     "notes": {
+      "tr": "Narenciyeli · Ferah · Hafif tatlı",
+      "en": "Citrusy · Fresh · Lightly Sweet"
+     },
+     "image": "img/mvmzemrwyiafyv-1792883825112.jpg"
+    },
+    {
+     "name": {
+      "tr": "Clover Club",
+      "en": "Clover Club"
+     },
+     "notes": {
+      "tr": "Meyveli · Ekşi · Zarif",
+      "en": "Fruity · Sour · Delicate"
+     },
+     "image": "img/mvmzemssjm9vnk-1792883825149.jpg"
+    },
+    {
+     "name": {
+      "tr": "Garibaldi",
+      "en": "Garibaldi"
+     },
+     "notes": {
+      "tr": "Narenciyeli · Ferah · Hafif acı",
+      "en": "Citrusy · Fresh · Slightly Bitter"
+     },
+     "image": "img/mvmzemtw4nk5am-1792883825191.jpg"
+    },
+    {
+     "name": {
+      "tr": "Greyhound",
+      "en": "Greyhound"
+     },
+     "notes": {
+      "tr": "Narenciyeli · Serinletici · Hafif acı",
+      "en": "Citrusy · Refreshing · Slightly Bitter"
+     },
+     "image": "img/mvmzemv01y4klp-1792883825231.jpg"
+    },
+    {
+     "name": {
+      "tr": "Bolo",
+      "en": "Bolo"
+     },
+     "notes": {
+      "tr": "Narenciyeli · Çok ekşi · Asidik",
+      "en": "Citrusy · Very Sour · Acidic"
+     },
+     "image": "img/mvmzemw6d6w1gy-1792883825276.jpg"
+    }
+   ]
+  },
+  {
+   "key": "sparkling",
+   "label": {
+    "tr": "Köpüklü",
+    "en": "Sparkling"
+   },
+   "items": [
+    {
+     "name": {
+      "tr": "Aperol Spritz",
+      "en": "Aperol Spritz"
+     },
+     "notes": {
+      "tr": "Hafif · Serinletici · Hafif acı",
+      "en": "Light · Refreshing · Slightly Bitter"
+     },
+     "image": "img/mvmzemwzppadyq-1792883825324.jpg"
+    },
+    {
+     "name": {
+      "tr": "Ramos Fizz",
+      "en": "Ramos Fizz"
+     },
+     "notes": {
+      "tr": "Tatlı · Ekşi · Kremamsı",
+      "en": "Sweet · Sour · Creamy"
+     },
+     "image": "img/mvmzen0xnn7716-1792883825417.jpg"
+    }
+   ]
+  },
+  {
+   "key": "coffee",
+   "label": {
+    "tr": "Kahveli",
+    "en": "Coffee Based"
+   },
+   "items": [
+    {
+     "name": {
+      "tr": "Espresso Martini",
+      "en": "Espresso Martini"
+     },
+     "notes": {
+      "tr": "Kahveli · Tatlı · Yumuşak",
+      "en": "Coffee · Sweet · Smooth"
+     },
+     "image": "img/mvmzen1w0239iy-1792883825465.jpg"
+    },
+    {
+     "name": {
+      "tr": "White Russian",
+      "en": "White Russian"
+     },
+     "notes": {
+      "tr": "Kahveli · Kremamsı · Yumuşak",
+      "en": "Coffee · Creamy · Smooth"
+     },
+     "image": "img/mvmzen33a22u4s-1792883825513.jpg"
+    }
+   ]
+  },
+  {
+   "key": "sweet",
+   "label": {
+    "tr": "Tatlı",
+    "en": "Sweet"
+   },
+   "items": [
+    {
+     "name": {
+      "tr": "Pink Lady",
+      "en": "Pink Lady"
+     },
+     "notes": {
+      "tr": "Meyveli · Tatlı · Yumuşak",
+      "en": "Fruity · Sweet · Soft"
+     },
+     "image": "img/mvmzen4f2byccg-1792883825564.jpg"
+    },
+    {
+     "name": {
+      "tr": "Tequila Sunrise",
+      "en": "Tequila Sunrise"
+     },
+     "notes": {
+      "tr": "Tatlı · Meyveli · Yumuşak",
+      "en": "Sweet · Fruity · Smooth"
+     },
+     "image": "img/mvmzen5lwzlt6t-1792883825610.jpg"
+    }
+   ]
+  },
+  {
+   "key": "signature",
+   "label": {
+    "tr": "İmza Kokteyller",
+    "en": "Signature"
+   },
+   "items": [
+    {
+     "name": {
+      "tr": "Whisperleaf",
+      "en": "Whisperleaf"
+     },
+     "notes": {
+      "tr": "Ferah · Naneli · Hafif",
+      "en": "Fresh · Minty · Light"
+     },
+     "image": "img/mvmzen6nw8je76-1792927177202.jpg"
+    },
+    {
+     "name": {
+      "tr": "Neon Sunset",
+      "en": "Neon Sunset"
+     },
+     "notes": {
+      "tr": "Acı-tatlı · Dengeli · Katmanlı",
+      "en": "Bittersweet · Balanced · Layered"
+     },
+     "image": "img/mvmzen7vjmandd-1792927177253.jpg"
+    },
+    {
+     "name": {
+      "tr": "Persephone",
+      "en": "Persephone"
+     },
+     "notes": {
+      "tr": "Çiçeksi · Meyveli · Tatlı",
+      "en": "Floral · Fruity · Sweet"
+     },
+     "image": "img/mvmzen8subrspa-1792927177283.jpg"
+    },
+    {
+     "name": {
+      "tr": "Anatolian Sour",
+      "en": "Anatolian Sour"
+     },
+     "notes": {
+      "tr": "Narenciyeli · Aromatik · Güçlü",
+      "en": "Citrusy · Aromatic · Bold"
+     },
+     "image": "img/mvmzena5a7vj86-1792883825737.jpg"
+    },
+    {
+     "name": {
+      "tr": "Royal Martini",
+      "en": "Royal Martini"
+     },
+     "notes": {
+      "tr": "Narenciyeli · Tatlı · Şık",
+      "en": "Citrusy · Sweet · Elegant"
+     },
+     "image": "img/mvmzenbf5ahb6z-1792927177307.jpg"
+    },
+    {
+     "name": {
+      "tr": "Côte d’Azur",
+      "en": "Côte d’Azur"
+     },
+     "notes": {
+      "tr": "Tatlı · Ekşi · Canlı",
+      "en": "Sweet · Sour · Vivid"
+     },
+     "image": "img/mvmzencbamlgiq-1792927177331.jpg"
+    },
+    {
+     "name": {
+      "tr": "La Calma Ardiente",
+      "en": "La Calma Ardiente"
+     },
+     "notes": {
+      "tr": "Baharatlı · İpeksi · Şık",
+      "en": "Spicy · Silky · Elegant"
+     },
+     "image": "img/mvmzenexnvogx0-1792883825941.jpg"
+    },
+    {
+     "name": {
+      "tr": "Seen",
+      "en": "Seen"
+     },
+     "notes": {
+      "tr": "Sert · Berrak · Şık",
+      "en": "Strong · Clear · Elegant"
+     },
+     "image": "img/mvmzeng6i2x3rt-1792883825984.jpg"
+    }
+   ]
+  },
+  {
+   "key": "mocktails",
+   "label": {
+    "tr": "Alkolsüz",
+    "en": "Mocktails"
+   },
+   "items": [
+    {
+     "name": {
+      "tr": "Shirley Temple",
+      "en": "Shirley Temple"
+     },
+     "notes": {
+      "tr": "Tatlı · Meyveli · Gazlı",
+      "en": "Sweet · Fruity · Fizzy"
+     },
+     "image": "img/mvmzenhhka3srp-1792883826036.jpg"
+    }
+   ]
+  },
+  {
+   "key": "shots",
+   "label": {
+    "tr": "Shotlar",
+    "en": "Shots"
+   },
+   "items": [
+    {
+     "name": {
+      "tr": "A.B.C.",
+      "en": "A.B.C."
+     },
+     "notes": {
+      "tr": "Acı · Sert · Katmanlı",
+      "en": "Bitter · Strong · Layered"
+     },
+     "image": "img/mvmzeniss8iqw6-1792927177358.jpg"
+    },
+    {
+     "name": {
+      "tr": "B-52",
+      "en": "B-52"
+     },
+     "notes": {
+      "tr": "Tatlı · Sert · Alevli",
+      "en": "Sweet · Strong · Flaming"
+     },
+     "image": "img/mvmzenju3tui62-1792927177382.jpg"
+    },
+    {
+     "name": {
+      "tr": "B-55",
+      "en": "B-55"
+     },
+     "notes": {
+      "tr": "Tatlı · Sert · Alevli",
+      "en": "Sweet · Strong · Flaming"
+     },
+     "image": "img/mvmzenkj7qacq1-1792927177405.jpg"
+    },
+    {
+     "name": {
+      "tr": "Orgasm #2",
+      "en": "Orgasm #2"
+     },
+     "notes": {
+      "tr": "Acı-tatlı · Yumuşak · Dengeli",
+      "en": "Bittersweet · Smooth · Balanced"
+     },
+     "image": "img/mvmzenloxfr6b9-1792927177430.jpg"
+    },
+    {
+     "name": {
+      "tr": "Jellyfish",
+      "en": "Jellyfish"
+     },
+     "notes": {
+      "tr": "Acı-tatlı · Sert · Sonradan vuran",
+      "en": "Bittersweet · Strong · Afterhit"
+     },
+     "image": "img/mvmzenmqx55noa-1792927177454.jpg"
+    },
+    {
+     "name": {
+      "tr": "Lemon Cheesecake",
+      "en": "Lemon Cheesecake"
+     },
+     "notes": {
+      "tr": "Tatlı · Yumuşak · İmza",
+      "en": "Sweet · Smooth · Signature"
+     },
+     "image": "img/mvmzennqeelwwv-1792927177477.jpg"
+    }
+   ]
+  }
+ ]
+}
