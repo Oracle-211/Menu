@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-26T22:53:05.901Z",
+ "updatedAt": "2026-10-26T22:53:24.075Z",
  "sections": [
   {
    "key": "spirit-forward",
@@ -10,17 +10,6 @@
    "items": [
     {
      "name": {
-      "tr": "Negroni",
-      "en": "Negroni"
-     },
-     "notes": {
-      "tr": "Acı · Aromatik · Dengeli",
-      "en": "Bitters · Aromatic · Balanced"
-     },
-     "image": "img/mvmzem9pasb2dr-1792883824561.jpg"
-    },
-    {
-     "name": {
       "tr": "Lucien Gaudin",
       "en": "Lucien Gaudin"
      },
@@ -28,7 +17,7 @@
       "tr": "Acı · Aromatik · Yumuşak",
       "en": "Bitters · Aromatic · Soft"
      },
-     "image": "img/mvmzemc88skari-1792883824629.jpg"
+     "image": "img/mvo8j9k937hin8-1792987234658.jpg"
     },
     {
      "name": {
@@ -39,7 +28,7 @@
       "tr": "Bitkisel · Keskin · Hafif çiçeksi",
       "en": "Herbal · Sharp · Delicate Floral"
      },
-     "image": "img/mvmzemdqocw01s-1792883824666.jpg"
+     "image": "img/mvo8j9knny6dru-1792987234669.jpg"
     },
     {
      "name": {
@@ -50,29 +39,7 @@
       "tr": "Bitkisel · Şık · Hafif çiçeksi",
       "en": "Herbal · Elegant · Delicate Floral"
      },
-     "image": "img/mvmzemf3ex4l7w-1792883824701.jpg"
-    },
-    {
-     "name": {
-      "tr": "Bijou",
-      "en": "Bijou"
-     },
-     "notes": {
-      "tr": "Bitkisel · Sert · Kompleks",
-      "en": "Herbal · Strong · Complex"
-     },
-     "image": "img/mvmzemgfiux90p-1792883824737.jpg"
-    },
-    {
-     "name": {
-      "tr": "Remember the Maine",
-      "en": "Remember the Maine"
-     },
-     "notes": {
-      "tr": "İsli · Acı · Kompleks",
-      "en": "Smoky · Bitter · Complex"
-     },
-     "image": "img/mvmzemi08olygj-1792883824774.jpg"
+     "image": "img/mvo8j9kyh9dw3l-1792987234679.jpg"
     },
     {
      "name": {
@@ -83,7 +50,7 @@
       "tr": "Sek · Keskin · Rafine",
       "en": "Dry · Sharp · Refined"
      },
-     "image": "img/mvmzemjiqcrd6p-1792883824809.jpg"
+     "image": "img/mvo8j9lve5741b-1792987234714.jpg"
     },
     {
      "name": {
@@ -94,7 +61,7 @@
       "tr": "Sek · Tuzlu · Botanik",
       "en": "Dry · Salty · Botanical"
      },
-     "image": "img/mvmzemkral0by5-1792883824842.jpg"
+     "image": "img/mvo8j9m6gtd9nr-1792987234726.jpg"
     },
     {
      "name": {
@@ -105,7 +72,7 @@
       "tr": "Sert · Botanik · Şık",
       "en": "Strong · Botanical · Elegant"
      },
-     "image": "img/mvmzemm3vnyyuk-1792883824878.jpg"
+     "image": "img/mvo8j9mgvu0pub-1792987234736.jpg"
     },
     {
      "name": {
@@ -116,7 +83,7 @@
       "tr": "Narenciyeli · Ferah · Sek",
       "en": "Citrusy · Fresh · Dry"
      },
-     "image": "img/mvmzemni8gx5vm-1792883824914.jpg"
+     "image": "img/mvo8j9mq9lqh2k-1792987234745.jpg"
     },
     {
      "name": {
@@ -127,7 +94,7 @@
       "tr": "Zengin · Acı · Tatlı",
       "en": "Rich · Bitter · Sweet"
      },
-     "image": "img/mvmzemoodadsc8-1792883824958.jpg"
+     "image": "img/mvo8j9n0hkf8vn-1792987234759.jpg"
     }
    ]
   },
@@ -147,7 +114,7 @@
       "tr": "Çiçeksi · Narenciyeli · Zarif",
       "en": "Floral · Citrusy · Delicate"
      },
-     "image": "img/mvmzempywbo9kj-1792883825005.jpg"
+     "image": "img/mvo8j9nfplthfj-1792987234768.jpg"
     },
     {
      "name": {
@@ -158,7 +125,7 @@
       "tr": "Narenciyeli · Ferah · Keskin",
       "en": "Citrusy · Fresh · Sharp"
      },
-     "image": "img/mvmzemr18drzbo-1792883825064.jpg"
+     "image": "img/mvo8j9np5ignh2-1792987234779.jpg"
     },
     {
      "name": {
@@ -169,18 +136,7 @@
       "tr": "Narenciyeli · Ferah · Hafif tatlı",
       "en": "Citrusy · Fresh · Lightly Sweet"
      },
-     "image": "img/mvmzemrwyiafyv-1792883825112.jpg"
-    },
-    {
-     "name": {
-      "tr": "Garibaldi",
-      "en": "Garibaldi"
-     },
-     "notes": {
-      "tr": "Narenciyeli · Ferah · Hafif acı",
-      "en": "Citrusy · Fresh · Slightly Bitter"
-     },
-     "image": "img/mvmzemtw4nk5am-1792883825191.jpg"
+     "image": "img/mvo8j9nylbalyd-1792987234790.jpg"
     },
     {
      "name": {
@@ -191,18 +147,7 @@
       "tr": "Narenciyeli · Serinletici · Hafif acı",
       "en": "Citrusy · Refreshing · Slightly Bitter"
      },
-     "image": "img/mvmzemv01y4klp-1792883825231.jpg"
-    },
-    {
-     "name": {
-      "tr": "Bolo",
-      "en": "Bolo"
-     },
-     "notes": {
-      "tr": "Narenciyeli · Çok ekşi · Asidik",
-      "en": "Citrusy · Very Sour · Acidic"
-     },
-     "image": "img/mvmzemw6d6w1gy-1792883825276.jpg"
+     "image": "img/mvo8j9om91jggn-1792987234820.jpg"
     }
    ]
   },
@@ -222,7 +167,7 @@
       "tr": "Hafif · Serinletici · Hafif acı",
       "en": "Light · Refreshing · Slightly Bitter"
      },
-     "image": "img/mvmzemwzppadyq-1792883825324.jpg"
+     "image": "img/mvo8j9p1dewrlm-1792987234839.jpg"
     }
    ]
   },
@@ -242,7 +187,7 @@
       "tr": "Kahveli · Tatlı · Yumuşak",
       "en": "Coffee · Sweet · Smooth"
      },
-     "image": "img/mvmzen1w0239iy-1792883825465.jpg"
+     "image": "img/mvo8j9qawe98cp-1792987234894.jpg"
     }
    ]
   },
@@ -255,17 +200,6 @@
    "items": [
     {
      "name": {
-      "tr": "Neon Sunset",
-      "en": "Neon Sunset"
-     },
-     "notes": {
-      "tr": "Acı-tatlı · Dengeli · Katmanlı",
-      "en": "Bittersweet · Balanced · Layered"
-     },
-     "image": "img/mvmzen7vjmandd-1792927177253.jpg"
-    },
-    {
-     "name": {
       "tr": "Anatolian Sour",
       "en": "Anatolian Sour"
      },
@@ -273,7 +207,7 @@
       "tr": "Narenciyeli · Aromatik · Güçlü",
       "en": "Citrusy · Aromatic · Bold"
      },
-     "image": "img/mvmzena5a7vj86-1792883825737.jpg"
+     "image": "img/mvo8j9s377e54f-1792987234960.jpg"
     },
     {
      "name": {
@@ -284,7 +218,7 @@
       "tr": "Narenciyeli · Tatlı · Şık",
       "en": "Citrusy · Sweet · Elegant"
      },
-     "image": "img/mvmzenbf5ahb6z-1792927177307.jpg"
+     "image": "img/mvo8j9sfd1spqn-1792987234970.jpg"
     },
     {
      "name": {
@@ -295,7 +229,7 @@
       "tr": "Tatlı · Ekşi · Canlı",
       "en": "Sweet · Sour · Vivid"
      },
-     "image": "img/mvmzencbamlgiq-1792927177331.jpg"
+     "image": "img/mvo8j9soys7wzg-1792987234979.jpg"
     },
     {
      "name": {
@@ -306,7 +240,7 @@
       "tr": "Baharatlı · İpeksi · Şık",
       "en": "Spicy · Silky · Elegant"
      },
-     "image": "img/mvmzenexnvogx0-1792883825941.jpg"
+     "image": "img/mvo8j9t62n4xmm-1792987234995.jpg"
     },
     {
      "name": {
@@ -317,82 +251,7 @@
       "tr": "Sert · Berrak · Şık",
       "en": "Strong · Clear · Elegant"
      },
-     "image": "img/mvmzeng6i2x3rt-1792883825984.jpg"
-    }
-   ]
-  },
-  {
-   "key": "shots",
-   "label": {
-    "tr": "Shotlar",
-    "en": "Shots"
-   },
-   "items": [
-    {
-     "name": {
-      "tr": "A.B.C.",
-      "en": "A.B.C."
-     },
-     "notes": {
-      "tr": "Acı · Sert · Katmanlı",
-      "en": "Bitter · Strong · Layered"
-     },
-     "image": "img/mvmzeniss8iqw6-1792927177358.jpg"
-    },
-    {
-     "name": {
-      "tr": "B-52",
-      "en": "B-52"
-     },
-     "notes": {
-      "tr": "Tatlı · Sert · Alevli",
-      "en": "Sweet · Strong · Flaming"
-     },
-     "image": "img/mvmzenju3tui62-1792927177382.jpg"
-    },
-    {
-     "name": {
-      "tr": "B-55",
-      "en": "B-55"
-     },
-     "notes": {
-      "tr": "Tatlı · Sert · Alevli",
-      "en": "Sweet · Strong · Flaming"
-     },
-     "image": "img/mvmzenkj7qacq1-1792927177405.jpg"
-    },
-    {
-     "name": {
-      "tr": "Orgasm #2",
-      "en": "Orgasm #2"
-     },
-     "notes": {
-      "tr": "Acı-tatlı · Yumuşak · Dengeli",
-      "en": "Bittersweet · Smooth · Balanced"
-     },
-     "image": "img/mvmzenloxfr6b9-1792927177430.jpg"
-    },
-    {
-     "name": {
-      "tr": "Jellyfish",
-      "en": "Jellyfish"
-     },
-     "notes": {
-      "tr": "Acı-tatlı · Sert · Sonradan vuran",
-      "en": "Bittersweet · Strong · Afterhit"
-     },
-     "image": "img/mvmzenmqx55noa-1792927177454.jpg"
-    },
-    {
-     "name": {
-      "tr": "Lemon Cheesecake",
-      "en": "Lemon Cheesecake"
-     },
-     "notes": {
-      "tr": "Tatlı · Yumuşak · İmza",
-      "en": "Sweet · Smooth · Signature"
-     },
-     "image": "img/mvmzennqeelwwv-1792927177477.jpg"
+     "image": "img/mvo8j9tgh8uofx-1792987235004.jpg"
     }
    ]
   }
